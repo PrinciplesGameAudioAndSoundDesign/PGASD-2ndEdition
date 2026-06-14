@@ -1,3 +1,3 @@
 # Principles of Game Audio and Sound Design – 2nd Edition
 
-Here, you'll find supporting code and documentation for the 2nd edition of "Principles of Game Audio and Sound Design," by Jean-Luc Sinclair and David Cardona, published by Routledge.
+Here, you'll find the supporting project for the 2nd edition of "Principles of Game Audio and Sound Design," by [Jean-Luc Sinclair](https://college.berklee.edu/faculty/jean-luc-sinclair) and [David Cardona](https://linktr.ee/dcbapc), published by [Routledge](https://www.routledge.com/).
