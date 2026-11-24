@@ -6,7 +6,16 @@ You may find the book's main website . Errata and addenda are available on the b
 
 We will continue to update the content of this repo and recommend that you pull regularly, ensuring access to the most up to date version of the project, including addended code examples, updates for future Unity versions, more robust scenes, and new audio files for the examples.
 
-If you find an error in the book or a bug in the project, please [open an issue](https://github.com/PrinciplesGameAudioAndSoundDesign/PGASD-2ndEdition/issues) and include the chapter, section, and page number. For project bugs, also include your Unity version and operating system. When pointing out an issue with a programming example, please include the page number, code block number in that page, and line number.
+
+## Reporting Errors and Bugs
+
+If you find an error in the book or a bug in the project, please [open an issue](https://github.com/PrinciplesGameAudioAndSoundDesign/PGASD-2ndEdition/issues) and include:
+
+* The chapter, section, and page number.
+* For code examples, the code block number on that page and the line number.
+* For project bugs, your Unity version and operating system.
+
+Confirmed corrections are listed on the [Errata page](https://principlesgameaudioandsounddesign.github.io/errata.html).
 
 
 ## Project Info
@@ -24,7 +33,6 @@ Built with Unity 6000.6.10f1. This may be updated in the future.
 
 - **[Unity Hub](https://unity.com/download)** and Unity **6000.6.10f1**. If you don't have this version yet, Unity Hub will offer to install it when you open the project.
 
-
 ### 2. Clone the repository
 
 In your terminal, go to the folder where you'd like to keep the project and run:
@@ -33,14 +41,12 @@ In your terminal, go to the folder where you'd like to keep the project and run:
 git clone https://github.com/PrinciplesGameAudioAndSoundDesign/PGASD-2ndEdition.git
 ```
 
-
 ### 3. Open the project in Unity
 
 1. Open Unity Hub and go to **Projects**.
 2. Click **Add > Add project from disk**.
 3. Select the `PGASD_2nEd` folder inside the repository. Make sure you select this folder and not the repository's top-level folder.
 4. Click the project to open it. The first launch takes a few minutes while Unity imports the assets.
-
 
 ### 4. Open an example
 
