@@ -21,17 +21,9 @@ Built with Unity 6000.6.10f1. This may be updated in the future.
 ### 1. Install the requirements
 
 - **[Git](https://git-scm.com/downloads)**
-- **[Git LFS](https://git-lfs.com)** (Large File Storage). This repository stores its audio files and other large assets with Git LFS. Without it, those files download as small placeholder files and the examples will play no sound.
-    - **macOS:** `brew install git-lfs`
-    - **Windows:** Git LFS is included with [Git for Windows](https://git-scm.com/downloads/win).
-    - **Linux:** `sudo apt install git-lfs` (or your distribution's package manager)
+
 - **[Unity Hub](https://unity.com/download)** and Unity **6000.6.10f1**. If you don't have this version yet, Unity Hub will offer to install it when you open the project.
 
-After installing Git LFS, run this once to set it up on your computer:
-
-```bash
-git lfs install
-```
 
 ### 2. Clone the repository
 
@@ -41,7 +33,6 @@ In your terminal, go to the folder where you'd like to keep the project and run:
 git clone https://github.com/PrinciplesGameAudioAndSoundDesign/PGASD-2ndEdition.git
 ```
 
-> **Already cloned without Git LFS?** Run `git lfs install`, then run `git lfs pull` from inside the `PGASD-2ndEdition` folder to download the missing files.
 
 ### 3. Open the project in Unity
 
@@ -50,9 +41,11 @@ git clone https://github.com/PrinciplesGameAudioAndSoundDesign/PGASD-2ndEdition.
 3. Select the `PGASD_2nEd` folder inside the repository. Make sure you select this folder and not the repository's top-level folder.
 4. Click the project to open it. The first launch takes a few minutes while Unity imports the assets.
 
+
 ### 4. Open an example
 
 In the **Project** window, go to `Assets/Scenes`, open a chapter folder, and double-click a scene. Press **Play** to run it.
+
 
 ### Updating the project
 
