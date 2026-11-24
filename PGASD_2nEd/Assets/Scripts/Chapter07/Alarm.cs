@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.Timeline;
 using UnityEngine;
 
 public class Alarm : MonoBehaviour
@@ -15,20 +14,16 @@ public class Alarm : MonoBehaviour
     {
         _source = GetComponent<AudioSource>();
         _source.loop = true;
-
-        StopCoroutine(_myCoroutine);
     }
 
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Alpha9) && !_inCoroutine)
         {
             _myCoroutine = StartCoroutine(PlayAlarm(_alarmRate));
         }
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            StopCoroutine(_myCoroutine);
             _source.Stop();
         }
     }

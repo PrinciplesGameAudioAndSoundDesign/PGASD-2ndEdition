@@ -5,7 +5,7 @@ public class Ambience : MonoBehaviour
     // Member Variables
     AudioSource _source;
     
-    int _timeOfDay;
+    public int _timeOfDay;
 
     // We'll explain `public` on the next chapter. We use it here as it allows us
     // to assign values to these variables via the Unity Inspector.

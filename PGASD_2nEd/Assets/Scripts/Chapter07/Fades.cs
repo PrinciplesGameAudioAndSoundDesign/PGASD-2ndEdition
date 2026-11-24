@@ -26,6 +26,8 @@ public class Fades : MonoBehaviour
 
     IEnumerator FadeIn(float duration, float targetVolume = 1.0f)
     {
+        _inCoroutine = true;
+        
         _source.volume = 0.0f;
         _source.Play();
 
@@ -39,10 +41,14 @@ public class Fades : MonoBehaviour
         }
         
         _source.volume = targetVolume;
+        
+        _inCoroutine = false;
     }
     
     IEnumerator FadeOut(float duration)
     {
+        _inCoroutine = true;
+        
         float initialVolume = _source.volume;
         
         float timer = 0.0f;
@@ -55,5 +61,8 @@ public class Fades : MonoBehaviour
         }
         
         _source.volume = 0.0f;
+        _source.Stop();
+        
+        _inCoroutine = false;
     }
 }

@@ -113,7 +113,6 @@ public class MicrophoneRecorder : MonoBehaviour
         // Populate new `AudioClip` with the recorded audio data
         trimmedClip.SetData(audioData, 0);
         
-        
         Recordings.Add(trimmedClip);
         ChooseClip(Recordings.Count - 1);
             

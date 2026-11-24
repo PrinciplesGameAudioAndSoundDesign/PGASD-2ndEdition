@@ -207,6 +207,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &407147048
 MeshFilter:
@@ -262,7 +263,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936b9222eb33d441c80f8f2c7feb6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IntermittentSource
-  _clips: []
+  _clips:
+  - {fileID: 8300000, guid: b974f6d87de594caa98716c778e62f73, type: 3}
+  - {fileID: 8300000, guid: d546aa786127b4bf6af226775f1126f2, type: 3}
+  - {fileID: 8300000, guid: 424191f8765d540d3ae659fedc9e09af, type: 3}
+  - {fileID: 8300000, guid: 1cb08c46ffe2846cfbae1141f1822b76, type: 3}
+  - {fileID: 8300000, guid: 5036595e0dbb24208b8792249caf1406, type: 3}
+  - {fileID: 8300000, guid: f6acac6f0217249ea96f5f06e7ee2c50, type: 3}
+  - {fileID: 8300000, guid: af8a9290a493847f0ad2cee07a5840dc, type: 3}
+  - {fileID: 8300000, guid: d8f9a8bd8c9c04cb7a5402ea884cd700, type: 3}
   _setAmp: 1
   _minAmp: 0.75
   _maxAmp: 1
@@ -436,14 +445,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962067650}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -488,7 +497,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -588,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 3128949090649374765, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44500017
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: orthographic size

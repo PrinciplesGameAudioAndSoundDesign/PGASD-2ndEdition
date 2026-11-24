@@ -16,7 +16,7 @@ public class LayerMaskSmartSource : MonoBehaviour
     
     private bool _isOccluded = false;
     
-    private LayerMask _layerMask;
+    [SerializeField] private LayerMask _layerMask;
     
     private void Awake()
     {
@@ -26,8 +26,6 @@ public class LayerMaskSmartSource : MonoBehaviour
 
     private void Start()
     {
-        _layerMask = LayerMask.GetMask("Obstacles");
-        
         _source.Play();
     }
 
